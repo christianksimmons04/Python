@@ -24,7 +24,7 @@ elif user_option == 2:
 elif user_option == 3:
     print("[You chose the shower!]\n")
 else:
-    print("Inavlid ineger chosen! Choosing for you.\n")
+    print("Invalid integer chosen! Choosing for you.\n")
     user_option = random.randint(1, 3)
     print(f"You chose: {user_option}\n")
 
